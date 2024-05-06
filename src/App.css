@@ -1,0 +1,114 @@
+.main_div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relaabsolutetive;
+  /* justify-content: center; */
+}
+
+#task_Bar {
+  height: 100vh;
+  width: 1200px;
+}
+
+#project {
+  height: 100vh;
+  width: 1450;
+}
+
+#client {
+  height: 100vh;
+  width: 1260px;
+}
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.sidenav.open {
+  width: 270px;
+  /* top: px; */
+}
+.sidenav.open a {
+  color: rgb(244, 241, 241);
+  /* transition: 0.3s; */
+  padding-left: 15px;
+  position: sticky;
+  top: 0px;
+}
+.sidenav a {
+  margin: 30px 0;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  display: flex; 
+  gap: 15px;
+
+  position:static ;
+}
+.sidenav.open a:hover {
+  color: #6d6161;
+}
+.sidenav {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #E1FFEF;
+  /* padding-top: 45px; */
+}
+.cross_bar {
+  position: fixed;
+  top: 30px;
+  left: 190px;
+  color: #f5eded;
+  font-size: 35px;
+}
+
+button :hover {
+  color: #6d6161;
+}
+
+.top_bar{
+  /* position: static; */
+  display: grid;
+  flex-direction: row;
+  /* justify-content: center; */
+
+}
+/* a{
+  position: relative;
+} */
+.sticky{
+  display: block;
+  position: fixed;
+  top: 80px;
+}
+.top_barbefore .menu_bar{
+    justify-content: center;
+    left: 0px;
+    color: #f5eded;
+    font-size: 42px;
+}
+
+.top_barbefore{
+  position: fixed;
+  height: 45px;
+  background-color: #E1FFEF;
+  width: 100%;
+  align-items: center;
+  padding-top: 2px;
+}
+
+.content {
+  margin-top: 15px;
+}
+.top_bar h1{
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 4px;
+  left: 15px;
+  position: relative;
+  top: 35px;
+}
