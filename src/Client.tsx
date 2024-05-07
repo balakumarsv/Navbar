@@ -2,7 +2,7 @@ function Client(){
     return(
         <>
             <div className="container">
-                <h1>Client Updates...</h1>
+                <h1>Client Updates...👥</h1>
             </div>
         </>
     );

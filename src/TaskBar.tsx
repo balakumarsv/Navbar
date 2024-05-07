@@ -2,7 +2,7 @@ function TaskBar() {
     return(
         <>
             <div className="container">
-                <h1>Today <mark>Schedule Task</mark> are...</h1>
+                <h1>Today Schedule Task are...📋</h1>
             </div>
         </>
     );
